@@ -186,4 +186,66 @@ export const ansar: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar };
+export const ahmed: Person = {
+  title: "Ahmed Sayeed — General Support Member, APEXION Team 164",
+  description: "APEXION's Trailblazer Award candidate for the National Robotics League 2026: led the 120+ page team portfolio and supported ULTRON's design.",
+  first: "Ahmed", last: "Sayeed", email: "asayeeddam@gmail.com", photo: "/ahmed.png", location: "Bhatkal",
+  role: "General Support Member — APEXION, Team\u00a0164",
+  intro: "APEXION's Trailblazer Award candidate for the National Robotics League 2026. I led our 120+ page portfolio and help the robot and team get competition-ready.",
+  workIntro: "From a 120+ page competition portfolio to ULTRON's exterior — designed, organized and ready for competition.",
+  contactLine: "Putting a team's story on paper? Let's talk.",
+  heroStats: [
+    { value: "120+", label: "Portfolio pages led" },
+    { value: "164", label: "APEXION team number" },
+    { value: "2026", label: "Trailblazer Award candidate" },
+  ],
+  workStats: [
+    { value: "120+", label: "Portfolio pages" },
+    { value: "1", label: "Robot exterior improved" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "NRL 2026 team portfolio",
+      title: "APEXION Portfolio",
+      bullets: [
+        "Led overall development of the team's 120+ page competition portfolio.",
+        "Managed the portfolio's content, design and completion.",
+        "Used Canva to create and present the portfolio.",
+        "Contributed extensively to APEXION's competition documentation.",
+      ],
+      chips: ["Canva", "Portfolio design", "Documentation"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+    {
+      kicker: "Robotics development project",
+      title: "ULTRON",
+      bullets: [
+        "Contributed to improving ULTRON's exterior design.",
+        "Supported robot development and testing.",
+        "Helped organize equipment and prepare for competition.",
+      ],
+      chips: ["Exterior design", "Testing support", "Competition prep"],
+    },
+  ],
+  tools: ["Canva", "Portfolio Development", "Exterior Robot Design", "Testing Support", "Technical Documentation", "Competition Preparation", "Team Support", "Project Coordination"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "General Support Member", org: "APEXION — Team 164 · National Robotics League 2026", text: "Leading the team portfolio, supporting robot development and testing, helping teammates and preparing equipment and materials for competition." },
+    { when: "2026", type: "Award", title: "Trailblazer Award Candidate", org: "National Robotics League 2026", text: "Selected to represent APEXION for the NRL 2026 Trailblazer Award." },
+    { when: "Project", type: "Build", title: "APEXION — NRL 2026 Team Portfolio", org: "Canva · teamapexion.com", text: "Led the 120+ page competition portfolio from content and design through to completion." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while supporting APEXION for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Ahmed Sayeed, a 12th-grade student at Anjuman Pre-University College in Bhatkal and a General Support Member of APEXION — Team 164. I was selected to represent the team for the NRL 2026 Trailblazer Award.",
+    "I led our 120+ page competition portfolio in Canva, helped improve ULTRON's exterior design, and keep the team ready for competition: supporting testing, organizing equipment and preparing materials.",
+  ],
+  skills: ["Canva & Portfolio Development", "Exterior Robot Design", "Testing Support", "Technical Documentation", "Competition Preparation"],
+  principles: [
+    { title: "Document everything", text: "120+ pages exist because every part of the season got written down." },
+    { title: "Design matters", text: "From the portfolio to ULTRON's exterior, how it looks shapes how it's understood." },
+    { title: "Be ready early", text: "Equipment organized and materials prepared before competition day." },
+    { title: "Support the team", text: "Whatever teammates need, technical or organizational, I help get it done." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed };
