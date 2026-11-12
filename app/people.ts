@@ -124,4 +124,66 @@ export const rahim: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim };
+export const ansar: Person = {
+  title: "Mohammed Ansar — Social Media Manager, APEXION Team 164",
+  description: "Social Media Manager at APEXION for the National Robotics League 2026: reels, video editing and graphic design.",
+  first: "Mohammed", last: "Ansar", email: "ansar.armar2009@gmail.com", photo: "/ansar.png", location: "Bhatkal",
+  role: "Social Media Manager — APEXION, Team\u00a0164",
+  intro: "Telling APEXION's story at the National Robotics League 2026. I edit the reels, design the posts and write the captions.",
+  workIntro: "From robot builds to Instagram reels — edited in CapCut, designed in Canva and posted to @apexion.nrl.",
+  contactLine: "Need content that gets seen? Let's talk.",
+  heroStats: [
+    { value: "6,000", label: "Views on one reel" },
+    { value: "131", label: "Instagram followers" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "~13", label: "Reels, videos & posts" },
+    { value: "6K", label: "Top reel views" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "Social media & digital promotion",
+      title: "APEXION",
+      bullets: [
+        "Created around 13 reels, videos and promotional posts.",
+        "Produced an Instagram reel that reached 6,000 views.",
+        "Manage content for @apexion.nrl, an account with 131 followers.",
+        "Promote APEXION's participation in the National Robotics League 2026.",
+      ],
+      chips: ["CapCut", "Canva", "Instagram"],
+      links: [{ label: "Instagram", href: "https://www.instagram.com/apexion.nrl/" }],
+    },
+    {
+      kicker: "Robotics project promotion",
+      title: "ULTRON",
+      bullets: [
+        "Create promotional content showcasing the ULTRON robot.",
+        "Edit videos highlighting robot development and team activities.",
+        "Design graphics and captions to communicate project updates.",
+      ],
+      chips: ["Video editing", "Graphic design", "Captions"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["CapCut", "Canva", "Instagram", "Reels", "Video Editing", "Graphic Design", "Caption Writing", "Content Creation"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Social Media Manager", org: "APEXION — Team 164 · National Robotics League 2026", text: "Managing the team's social media: Instagram reels, promotional videos, graphics and captions about the team and its robots." },
+    { when: "Project", type: "Content", title: "APEXION — Social Media & Digital Promotion", org: "CapCut · Canva · @apexion.nrl", text: "Around 13 reels, videos and posts, including a reel that reached 6,000 views." },
+    { when: "Present", type: "Education", title: "11th Grade", org: "Anjuman Pre-University College", text: "Currently studying while running APEXION's social media for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Mohammed Ansar, an 11th-grade student at Anjuman Pre-University College in Bhatkal and the Social Media Manager of APEXION — Team 164 for the National Robotics League 2026.",
+    "I make the team's work visible: editing reels and videos in CapCut, designing posts in Canva and writing captions about our robots and team activities. One of my reels reached 6,000 views.",
+  ],
+  skills: ["Video Editing (CapCut)", "Graphic Design (Canva)", "Instagram Management", "Reels Creation", "Caption Writing & Digital Promotion"],
+  principles: [
+    { title: "Show the build", text: "The best content is the real work: the robot, the team and the progress." },
+    { title: "Hook fast", text: "A reel has a second to grab attention. The edit is built around that." },
+    { title: "Stay consistent", text: "Regular posts keep the team's story going all season." },
+    { title: "Words matter", text: "A good caption tells people what they're looking at and why it matters." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar };
