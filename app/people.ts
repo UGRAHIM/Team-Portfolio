@@ -248,4 +248,66 @@ export const ahmed: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed };
+export const ibrahim: Person = {
+  title: "Ibrahim Kola — Mechanical Lead, APEXION Team 164",
+  description: "Mechanical Lead at APEXION for the National Robotics League 2026: designed and built ULTRON's chassis, drivetrain, arm, lift and cargo bay.",
+  first: "Ibrahim", last: "Kola", email: "ibrahimkolaa2009@gmail.com", photo: "/ibrahim.png", location: "Bhatkal",
+  role: "Mechanical Lead — APEXION, Team\u00a0164",
+  intro: "Building APEXION's robot for the National Robotics League 2026. I design in AutoCAD and assemble the mechanisms that make it work.",
+  workIntro: "From AutoCAD drawings to a working chassis, arm, lift and cargo bay — designed, assembled and tested.",
+  contactLine: "Got a mechanism to build? Let's talk.",
+  heroStats: [
+    { value: "1", label: "Fully built robot" },
+    { value: "3–4", label: "Mechanical tests passed" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "1", label: "Robot: ULTRON" },
+    { value: "3–4", label: "Mechanical tests" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "Robotics development project",
+      title: "ULTRON",
+      bullets: [
+        "Designed and assembled ULTRON's chassis, wheels and drivetrain.",
+        "Developed the robotic arm, lifting mechanism and cargo bay.",
+        "Integrated and maintained the robot's mechanical systems.",
+        "Ran around 3–4 mechanical tests that verified the mechanisms worked.",
+      ],
+      chips: ["AutoCAD", "Drivetrain", "Robotic arm"],
+    },
+    {
+      kicker: "National Robotics League 2026",
+      title: "APEXION — Team 164",
+      bullets: [
+        "Lead mechanical design, assembly and development.",
+        "Design and build mechanisms for the team's robot.",
+        "Select components and keep the mechanics working.",
+        "Test the robot for performance and reliability.",
+      ],
+      chips: ["Mechanical design", "Assembly", "Testing"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["AutoCAD", "Robot Assembly", "Chassis", "Drivetrain", "Robotic Arms", "Lifting Mechanisms", "Cargo Bay", "Component Selection", "Mechanical Testing"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Mechanical Lead", org: "APEXION — Team 164 · National Robotics League 2026", text: "Leading mechanical design, assembly and development: building mechanisms, selecting components and testing the robot." },
+    { when: "Project", type: "Build", title: "ULTRON — Robotics Development Project", org: "AutoCAD", text: "Built the chassis, drivetrain, robotic arm, lift and cargo bay, and verified them in 3–4 mechanical tests." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while leading mechanical work for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Ibrahim Kola, a 12th-grade student at Anjuman Pre-University College in Bhatkal and the Mechanical Lead of APEXION — Team 164 for the National Robotics League 2026.",
+    "I turn designs into hardware. On Project ULTRON I designed and assembled the chassis, wheels and drivetrain, built the robotic arm, lifting mechanism and cargo bay, and tested them until they worked.",
+  ],
+  skills: ["AutoCAD & Mechanism Design", "Robot Assembly", "Chassis & Drivetrain Systems", "Arms, Lifts & Cargo Bays", "Component Selection & Testing"],
+  principles: [
+    { title: "Design before you cut", text: "Every part starts as an AutoCAD drawing." },
+    { title: "Build it solid", text: "A strong chassis and drivetrain are what everything else stands on." },
+    { title: "Test the mechanism", text: "3–4 mechanical tests proved ULTRON's mechanisms actually work." },
+    { title: "Keep it running", text: "Maintenance is part of the job. A robot that breaks can't compete." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim };
