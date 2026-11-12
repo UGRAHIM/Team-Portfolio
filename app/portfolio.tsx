@@ -7,6 +7,7 @@ type Project = { kicker: string; title: string; bullets: string[]; chips: string
 
 // One per student. Every fact comes from that student's resume.
 export type Person = {
+  title: string; description: string;
   first: string; last: string; email: string; photo: string; location: string;
   role: string; intro: string; workIntro: string; contactLine: string;
   heroStats: Stat[]; workStats: Stat[]; projects: Project[]; tools: string[];
