@@ -371,4 +371,66 @@ export const sinan: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan };
+export const musayyib: Person = {
+  title: "Mohammed Musayyib — Documentation Head, APEXION Team 164",
+  description: "Documentation Head at APEXION for the National Robotics League 2026: engineering notebook, progress logs and technical reports for ULTRON.",
+  first: "Mohammed", last: "Musayyib", email: "mmusk2009@gmail.com", photo: "/musayyib.png", location: "Bhatkal",
+  role: "Documentation Head — APEXION, Team\u00a0164",
+  intro: "Keeping APEXION's engineering record for the National Robotics League 2026. I write the notebook, logs and reports that show how our robot was built.",
+  workIntro: "From design to testing — every stage of ULTRON recorded, organized and presented in Canva.",
+  contactLine: "Need your engineering process on paper? Let's talk.",
+  heroStats: [
+    { value: "20–30", label: "Documentation pages" },
+    { value: "1", label: "Robot documented: ULTRON" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "20–30", label: "Pages written" },
+    { value: "4", label: "Stages: design to testing" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "Engineering documentation",
+      title: "ULTRON",
+      bullets: [
+        "Documented ULTRON's design and development process.",
+        "Recorded the robot's assembly stages and technical progress.",
+        "Kept testing records and documented performance improvements.",
+        "Organized project information into structured engineering reports.",
+      ],
+      chips: ["Canva", "Technical reports", "Testing records"],
+    },
+    {
+      kicker: "Engineering notebook & progress reports",
+      title: "APEXION",
+      bullets: [
+        "Prepared around 20–30 pages of engineering documentation.",
+        "Kept progress logs of team activities and development stages.",
+        "Organized records that show the team's engineering process.",
+        "Supported competition preparation with structured technical reports.",
+      ],
+      chips: ["Engineering notebook", "Progress logs", "Canva"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["Engineering Notebooks", "Technical Reporting", "Progress Logs", "Testing Documentation", "Canva", "Information Management", "Documentation Layout", "Development Tracking"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Documentation Head", org: "APEXION — Team 164 · National Robotics League 2026", text: "Maintaining the engineering notebook, progress logs and reports, and presenting the team's engineering workflow in Canva." },
+    { when: "Project", type: "Docs", title: "ULTRON — Engineering Documentation", org: "Canva", text: "Documented ULTRON's design, assembly, testing and improvements in structured engineering reports." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while leading documentation for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Mohammed Musayyib, a 12th-grade student at Anjuman Pre-University College in Bhatkal and the Documentation Head of APEXION — Team 164 for the National Robotics League 2026.",
+    "I make sure our work is on record. I keep the engineering notebook and progress logs, and for Project ULTRON I documented every stage, from design and assembly to testing and improvements, in around 20–30 pages of reports.",
+  ],
+  skills: ["Engineering Notebooks", "Technical Reporting", "Progress Logs & Testing Records", "Canva Documentation Layout", "Information Management"],
+  principles: [
+    { title: "Record as you go", text: "Progress logs are written during the build, not remembered after it." },
+    { title: "Show the process", text: "Judges and teammates should see how the robot was made, not just the result." },
+    { title: "Keep it organized", text: "Structured reports make technical information easy to find and follow." },
+    { title: "Track every test", text: "Testing records show what changed and why the robot got better." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib };
