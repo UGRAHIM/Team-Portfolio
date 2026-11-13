@@ -495,4 +495,66 @@ export const yaseen: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib, yaseen };
+export const muzayyan: Person = {
+  title: "Ahmed Muzayyan — Community Outreach Representative, APEXION Team 164",
+  description: "Community Outreach Representative at APEXION for the National Robotics League 2026: robotics awareness visits to 4 schools, reaching 80–90 students.",
+  first: "Ahmed", last: "Muzayyan", email: "ahmedmuzayyan17@gmail.com", photo: "/muzayyan.png", location: "Bhatkal",
+  role: "Community Outreach Representative — APEXION, Team\u00a0164",
+  intro: "Bringing robotics to students in Bhatkal for APEXION at the National Robotics League 2026. I visit schools, run Q&As and get young learners curious about STEM.",
+  workIntro: "From classroom Q&As to awareness campaigns — 4 schools visited and 80–90 students reached.",
+  contactLine: "Want robotics at your school? Let's talk.",
+  heroStats: [
+    { value: "4", label: "Schools visited" },
+    { value: "80–90", label: "Students reached" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "4", label: "Schools" },
+    { value: "80–90", label: "Students" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "School outreach initiative",
+      title: "Robotics Awareness",
+      bullets: [
+        "Visited 4 schools to promote robotics and STEM awareness.",
+        "Reached around 80–90 students through outreach activities.",
+        "Ran interactive Q&A sessions to introduce students to robotics.",
+        "Encouraged students to explore technology and engineering.",
+      ],
+      chips: ["School visits", "Q&A sessions", "Claude"],
+    },
+    {
+      kicker: "Community engagement & promotion",
+      title: "APEXION",
+      bullets: [
+        "Represented APEXION during school visits and community activities.",
+        "Helped organize awareness campaigns promoting robotics education.",
+        "Shared the team's robotics work with students.",
+        "Used Claude to help prepare outreach material.",
+      ],
+      chips: ["Campaigns", "Public engagement", "STEM promotion"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["Community Engagement", "Robotics Awareness", "STEM Promotion", "Student Interaction", "Q&A Sessions", "Awareness Campaigns", "School Outreach", "Claude"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Community Outreach Representative", org: "APEXION — Team 164 · National Robotics League 2026", text: "Promoting robotics through school visits and community activities, and representing APEXION at outreach events." },
+    { when: "Project", type: "Outreach", title: "Robotics Awareness — School Outreach", org: "4 schools · 80–90 students", text: "Visited schools and ran interactive Q&A sessions to introduce students to robotics and STEM." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while leading outreach for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Ahmed Muzayyan, a 12th-grade student at Anjuman Pre-University College in Bhatkal and the Community Outreach Representative of APEXION — Team 164 for the National Robotics League 2026.",
+    "I take robotics beyond our team. I've visited 4 schools and reached around 80–90 students, running Q&A sessions that introduce them to robotics and encourage them to explore engineering.",
+  ],
+  skills: ["Community Engagement", "Robotics & STEM Awareness", "Student Q&A Sessions", "Awareness Campaigns", "Outreach Coordination"],
+  principles: [
+    { title: "Go to them", text: "School visits bring robotics to students who might never see it otherwise." },
+    { title: "Make it a conversation", text: "Q&A sessions let students ask what they actually want to know." },
+    { title: "Spark curiosity", text: "One good session can start someone on a path into engineering." },
+    { title: "Represent the team", text: "At every visit, I'm showing what APEXION stands for." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib, yaseen, muzayyan };
