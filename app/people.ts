@@ -500,7 +500,7 @@ export const muzayyan: Person = {
   description: "Community Outreach Representative at APEXION for the National Robotics League 2026: robotics awareness visits to 4 schools, reaching 80–90 students.",
   first: "Ahmed", last: "Muzayyan", email: "ahmedmuzayyan17@gmail.com", photo: "/muzayyan.png", location: "Bhatkal",
   role: "Community Outreach Representative — APEXION, Team\u00a0164",
-  intro: "Bringing robotics to students in Bhatkal for APEXION at the National Robotics League 2026. I visit schools, run Q&As and get young learners curious about STEM.",
+  intro: "Bringing robotics to students for APEXION at the National Robotics League 2026. I visit schools, run Q&As and get young learners curious about STEM.",
   workIntro: "From classroom Q&As to awareness campaigns — 4 schools visited and 80–90 students reached.",
   contactLine: "Want robotics at your school? Let's talk.",
   heroStats: [
