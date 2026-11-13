@@ -10,7 +10,7 @@ const caveat = Caveat_Brush({ weight: "400", subsets: ["latin"], variable: "--fo
 export const metadata: Metadata = {
   title: "Bassam Hussain — Team Captain, APEXION Team 164",
   description:
-    "Robotics team captain leading a 9-member team at APEXION for the National Robotics League 2026.",
+    "Robotics team captain leading a 10-member team at APEXION for the National Robotics League 2026.",
 };
 
 export const viewport: Viewport = { themeColor: "#09090b" };
