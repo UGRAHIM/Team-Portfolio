@@ -310,4 +310,65 @@ export const ibrahim: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim };
+export const sinan: Person = {
+  title: "Sinan Shabandari — Electrical Lead, APEXION Team 164",
+  description: "Electrical Lead at APEXION for the National Robotics League 2026: wiring, motors, sensors and battery management for ULTRON.",
+  first: "Sinan", last: "Shabandari", email: "its.sinanofficial.17@gmail.com", photo: "/sinan.png", location: "Bhatkal",
+  role: "Electrical Lead — APEXION, Team\u00a0164",
+  intro: "Powering APEXION's robot for the National Robotics League 2026. I wire the motors, sensors and batteries that bring it to life.",
+  workIntro: "From loose wires to a powered robot — motors, sensors and batteries connected and tested.",
+  contactLine: "Need a robot wired up? Let's talk.",
+  heroStats: [
+    { value: "4–5", label: "Electrical tests passed" },
+    { value: "1", label: "Robot wired: ULTRON" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "1", label: "Robot wired" },
+    { value: "4–5", label: "Electrical tests" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "Robotics development project",
+      title: "ULTRON",
+      bullets: [
+        "Installed and connected DC motors, servo motors and motor controllers.",
+        "Integrated sensors into the robot's electrical system.",
+        "Managed wiring and battery connections during development.",
+        "Ran around 4–5 successful electrical tests that verified the system worked.",
+      ],
+      chips: ["DC motors", "Servos", "Sensors"],
+    },
+    {
+      kicker: "AI-assisted design support",
+      title: "APEXION Design",
+      bullets: [
+        "Contributed to the team's design work using Canva.",
+        "Used ChatGPT to help with design-related tasks.",
+        "Supported the team's creative and technical presentation work.",
+      ],
+      chips: ["Canva", "ChatGPT", "Presentation"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["Robot Wiring", "DC Motors", "Servo Motors", "Motor Controllers", "Sensor Integration", "Battery Management", "Electrical Testing", "Canva", "ChatGPT"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Electrical Lead", org: "APEXION — Team 164 · National Robotics League 2026", text: "Managing the robot's wiring, motor connections, sensors, batteries and power, and supporting design work with Canva and ChatGPT." },
+    { when: "Project", type: "Build", title: "ULTRON — Robotics Development Project", org: "Electrical integration & testing", text: "Connected ULTRON's motors, controllers, sensors and batteries, and verified them in 4–5 successful electrical tests." },
+    { when: "Present", type: "Education", title: "11th Grade", org: "Anjuman Pre-University College", text: "Currently studying while leading electrical work for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Sinan Shabandari, an 11th-grade student at Anjuman Pre-University College in Bhatkal and the Electrical Lead of APEXION — Team 164 for the National Robotics League 2026.",
+    "I handle everything that carries power on our robot. On Project ULTRON I connected the DC motors, servos and motor controllers, integrated the sensors, managed wiring and batteries, and tested it all until it worked.",
+  ],
+  skills: ["Robot Wiring", "DC & Servo Motors", "Motor Controllers & Sensors", "Battery & Power Management", "Electrical System Testing"],
+  principles: [
+    { title: "Wire it clean", text: "Tidy wiring is easier to test, fix and trust." },
+    { title: "Power with care", text: "Battery connections and power management keep the robot, and the team, safe." },
+    { title: "Test every circuit", text: "4–5 electrical tests proved ULTRON's system worked before it competed." },
+    { title: "Use smart tools", text: "Canva and ChatGPT help turn ideas into clear designs faster." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan };

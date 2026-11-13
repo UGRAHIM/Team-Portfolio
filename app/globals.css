@@ -71,8 +71,11 @@ a:focus-visible, button:focus-visible {
 
 .headshot {
   filter: grayscale(1) contrast(1.18) brightness(1.03);
-  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 97%);
-  mask-image: linear-gradient(to bottom, #000 70%, transparent 97%);
+  /* bottom fade + soft side edges, for photos cropped at the frame edge */
+  -webkit-mask-image: linear-gradient(to bottom, #000 70%, transparent 97%), linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(to bottom, #000 70%, transparent 97%), linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+  mask-composite: intersect;
 }
 
 /* ---------- marquee (moves left -> right) ---------- */
