@@ -433,4 +433,66 @@ export const musayyib: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib };
+export const yaseen: Person = {
+  title: "Ahmed Yaseen — Operations & Logistics Coordinator, APEXION Team 164",
+  description: "Operations & Logistics Coordinator at APEXION for the National Robotics League 2026: equipment, transport, scheduling and resources for ULTRON.",
+  first: "Ahmed", last: "Yaseen", email: "rumzas@gmail.com", photo: "/yaseen.png", location: "Bhatkal",
+  role: "Operations & Logistics Coordinator — APEXION, Team\u00a0164",
+  intro: "Keeping APEXION running for the National Robotics League 2026. I handle the equipment, transport and schedules so the team can focus on the robot.",
+  workIntro: "From components to transport — equipment sourced, schedules set and the team where it needs to be.",
+  contactLine: "Need things organized? Let's talk.",
+  heroStats: [
+    { value: "3–4", label: "Components managed" },
+    { value: "164", label: "APEXION team number" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  workStats: [
+    { value: "3–4", label: "Items for ULTRON" },
+    { value: "1", label: "Robot supported" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "Equipment & resource management",
+      title: "ULTRON",
+      bullets: [
+        "Helped purchase or manage around 3–4 robot components and equipment items.",
+        "Organized the materials and equipment needed for robot development.",
+        "Coordinated logistics for robot testing sessions.",
+        "Supported the team's operational needs during the project.",
+      ],
+      chips: ["Procurement", "Equipment", "Logistics"],
+    },
+    {
+      kicker: "Team operations & logistics",
+      title: "APEXION",
+      bullets: [
+        "Arranged transport for team meetings and robot testing sessions.",
+        "Coordinated team schedules and shared updates on WhatsApp.",
+        "Organized equipment and materials for robotics activities.",
+        "Supported competition preparation by coordinating resources.",
+      ],
+      chips: ["Scheduling", "Transport", "WhatsApp"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["Transportation Coordination", "Equipment Management", "Inventory Organization", "Resource Management", "Team Scheduling", "Material Procurement", "Competition Preparation", "WhatsApp"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "Operations & Logistics Coordinator", org: "APEXION — Team 164 · National Robotics League 2026", text: "Managing equipment and inventory, coordinating transport and schedules, and helping purchase robot components." },
+    { when: "Project", type: "Support", title: "ULTRON — Robotics Development Support", org: "Equipment & resource management", text: "Helped source and manage 3–4 components and equipment items, and organized logistics for testing sessions." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while running operations for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Ahmed Yaseen, a 12th-grade student at Anjuman Pre-University College in Bhatkal and the Operations & Logistics Coordinator of APEXION — Team 164 for the National Robotics League 2026.",
+    "I make sure the team has what it needs, when and where it needs it: equipment and inventory, robot components, transport to meetings and testing sessions, and schedules shared over WhatsApp.",
+  ],
+  skills: ["Transportation Coordination", "Equipment & Inventory Management", "Resource Management", "Team Scheduling", "Material Procurement"],
+  principles: [
+    { title: "Plan ahead", text: "Transport and schedules are set before the team needs them." },
+    { title: "Know the inventory", text: "Knowing what equipment we have saves time at every build session." },
+    { title: "Communicate clearly", text: "One clear message keeps the whole team on the same schedule." },
+    { title: "Support the build", text: "Operations work so the builders can focus on the robot." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib, yaseen };
