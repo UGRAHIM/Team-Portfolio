@@ -199,7 +199,15 @@ export default function Agents() {
       raf = requestAnimationFrame(frame);
     };
 
-    const bootTimer = window.setTimeout(() => {
+    // Start once the team intro has finished (it fires "apx:enter"), or right away if it isn't playing.
+    let bootTimer = 0;
+    const boot = () => { bootTimer = window.setTimeout(bootAgents, 1100); };
+    const w = window as Window & { APX_ENTERED?: boolean };
+    const introPlaying = root.classList.contains("uo-wait") || root.classList.contains("uo-on");
+    if (introPlaying && !w.APX_ENTERED) addEventListener("apx:enter", boot, { once: true });
+    else boot();
+
+    function bootAgents() {
       setBooting(false);
       for (const it of items) if (!it.el.getClientRects().length) finish(it);
       const n = innerWidth < 768 ? 6 : 10;
@@ -225,9 +233,10 @@ export default function Agents() {
       );
       items.forEach((it) => it.state < 3 && io!.observe(it.el));
       raf = requestAnimationFrame(frame);
-    }, 1100);
+    }
 
     return () => {
+      removeEventListener("apx:enter", boot);
       clearTimeout(bootTimer);
       cancelAnimationFrame(raf);
       io?.disconnect();
