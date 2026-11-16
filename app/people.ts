@@ -557,4 +557,66 @@ export const muzayyan: Person = {
   ],
 };
 
-export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib, yaseen, muzayyan };
+export const ahid: Person = {
+  title: "Ahid Qamri — 3D Printing & AutoCAD Designer, APEXION Team 164",
+  description: "3D Printing & AutoCAD Designer at APEXION for the National Robotics League 2026: designed and printed 9–10 custom components for ULTRON.",
+  first: "Ahid", last: "Qamri", email: "ahidqamri@gmail.com", photo: "/ahid.png", location: "Bhatkal",
+  role: "3D Printing & AutoCAD Designer — APEXION, Team\u00a0164",
+  intro: "Designing and printing APEXION's custom parts for the National Robotics League 2026. I model in AutoCAD and turn designs into real robot components.",
+  workIntro: "From AutoCAD model to printed part — custom components designed, prototyped and fitted to ULTRON.",
+  contactLine: "Need a part designed and printed? Let's talk.",
+  heroStats: [
+    { value: "9–10", label: "Custom components" },
+    { value: "1", label: "Robot: ULTRON" },
+    { value: "164", label: "APEXION team number" },
+  ],
+  workStats: [
+    { value: "9–10", label: "Parts for ULTRON" },
+    { value: "3", label: "Arm, cargo bay, exterior" },
+    { value: "2026", label: "National Robotics League" },
+  ],
+  projects: [
+    {
+      kicker: "3D design & component manufacturing",
+      title: "ULTRON",
+      bullets: [
+        "Designed or 3D-printed around 9–10 custom robot components.",
+        "Developed robotic arm components, cargo bay parts and exterior elements.",
+        "Refined prototype parts through testing and reprinting.",
+        "Installed working 3D-printed components in the completed ULTRON robot.",
+      ],
+      chips: ["AutoCAD", "3D printing", "Prototyping"],
+    },
+    {
+      kicker: "National Robotics League 2026",
+      title: "APEXION — Team 164",
+      bullets: [
+        "Create 3D models and custom robot components in AutoCAD.",
+        "Operate 3D printers and prepare models for printing.",
+        "Develop and refine designs through prototype testing and reprinting.",
+        "Support mechanical development with custom-made components.",
+      ],
+      chips: ["3D modelling", "Additive manufacturing", "Design iteration"],
+      links: [{ label: "Team site", href: "https://www.teamapexion.com" }],
+    },
+  ],
+  tools: ["AutoCAD", "3D Modelling", "3D Printing", "Additive Manufacturing", "Prototype Testing", "Design Iteration", "Robotic Arm Components", "Cargo Bay Parts", "Exterior Design"],
+  record: [
+    { when: "Sep 2026 — Present", type: "Experience", title: "3D Printing & AutoCAD Designer", org: "APEXION — Team 164 · National Robotics League 2026", text: "Modelling custom robot components in AutoCAD, running the 3D printers and refining parts through prototype testing." },
+    { when: "Project", type: "Build", title: "ULTRON — 3D Design & Component Manufacturing", org: "AutoCAD · 3D printing", text: "Designed or printed 9–10 custom parts, including arm, cargo bay and exterior components, and fitted them to the finished robot." },
+    { when: "Present", type: "Education", title: "12th Grade", org: "Anjuman Pre-University College", text: "Currently studying while designing parts for the National Robotics League 2026." },
+  ],
+  about: [
+    "I'm Ahid Qamri, a 12th-grade student at Anjuman Pre-University College in Bhatkal and the 3D Printing & AutoCAD Designer of APEXION — Team 164 for the National Robotics League 2026.",
+    "I make the parts you can't buy. For Project ULTRON I designed and printed around 9–10 custom components, including robotic arm parts, cargo bay pieces and exterior elements, and refined them until they worked on the finished robot.",
+  ],
+  skills: ["AutoCAD & 3D Modelling", "3D Printing & Additive Manufacturing", "Mechanical Component Design", "Prototype Testing & Reprinting", "Robotic Arm & Cargo Bay Parts"],
+  principles: [
+    { title: "Model it first", text: "Every part starts as an AutoCAD model before it touches the printer." },
+    { title: "Print, test, reprint", text: "Prototypes get tested and refined until they actually fit and work." },
+    { title: "Make it functional", text: "A printed part earns its place by working on the robot." },
+    { title: "Support the build", text: "Custom parts help the mechanical team build what they designed." },
+  ],
+};
+
+export const people: Record<string, Person> = { bassam, rahim, ansar, ahmed, ibrahim, sinan, musayyib, yaseen, muzayyan, ahid };
