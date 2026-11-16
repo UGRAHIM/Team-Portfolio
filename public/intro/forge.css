@@ -115,3 +115,5 @@ html.uo-on,html.uo-on body{overflow:hidden!important}
 @media (max-width:760px){.uo-mkw{transform:translateY(var(--dy,0px)) scale(1.2)}}
 .uo-wm i.uo-sweep{display:none}
 .uo-mk{transition:opacity .8s ease}
+/* fix: the APEXION wordmark is wider than the 1100px box on large screens, which pushed the lockup right; size the box to its content so it stays centred */
+.uo-lock{width:max-content}
